@@ -1,7 +1,8 @@
 const budget = 100;
-const product = 60;
+let priceprompt =  prompt("Hoeveel kost het product dat je wilt kopen?");
+// const product = priceprompt;
 
-if (budget > product) {
+if (budget >= priceprompt) {
     document.getElementById("prijs").innerText = "U heeft genoeg geld!"
     document.getElementById("prijs").style.color = "green"
 } else {
