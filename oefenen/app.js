@@ -1,9 +1,15 @@
-const myName = "Bastiaan";
-let myAge = 15;
-const diploma = true;
-let passsed;
+// const myName = "Bastiaan";
+// let myAge = 15;
+// const diploma = true;
+// let passsed;
 
-document.write(myName)
-document.write(myAge)
-document.write(diploma)
-document.write(passsed)
+// document.write(myName)
+// document.write(myAge)
+// document.write(diploma)
+// document.write(passsed)
+
+function changeColor() {
+    console.log("de functie werkt")
+}
+
+changeColor()
